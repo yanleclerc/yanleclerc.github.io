@@ -21,7 +21,7 @@ body, html {
     text-align:center;
 }
 
-.bgimg-1, .bgimg-2, #snakeVideo, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, #snakeVideo, .bgimg-3, .bgimg-4, .bgimg-5 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -42,9 +42,14 @@ body, html {
     min-width: 100%;
 }
 
+#memorizeVideo {
+    min-height: 400px;
+    min-width: 100%;
+}
+
 #gameTitle1 {
     background-color:transparent;
-    font-size:25px;
+    font-size:40px;
     color: #f7f7f7;
 }
 
@@ -58,7 +63,7 @@ body, html {
 
 #gameTitle2 {
     background-color:transparent;
-    font-size:25px;
+    font-size:40px;
     color: #f7f7f7;
 }
 
@@ -89,7 +94,7 @@ body, html {
 }
 
 .bgimg-5 {
-    background-image: url("../Images/.png");
+    background-image: url("../Images/refugeAnimal.png");
     min-height: 400px;
 }
 
