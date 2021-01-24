@@ -1,0 +1,81 @@
+/*---------------------------------------------------------------
+@Page accueil.html
+@Section Header
+---------------------------------------------------------------*/
+
+div#header{
+    background-image: url("../Images/website-header.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+div#header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+div#header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div#header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+div#header a.active {
+    background-color: #bfbfbf;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+/*---------------------------------------------------------------
+@Page accueil.html
+@Section Contact Menu
+---------------------------------------------------------------*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
